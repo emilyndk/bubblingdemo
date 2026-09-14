@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Three Concentric Circles</h1>
+      <div id="outerCircle" class="circle outer-circle">
+        <div id="middleCircle" class="circle middle-circle">
+          <div id="innerCircle" class="circle inner-circle"></div>
+        </div>
+      </div>
+      <p id="eventMessage">Click a circle to see bubbling in action.</p>
+      <p id="eventHint">Event order for each click:</p>
+      <ul id="eventLog"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
