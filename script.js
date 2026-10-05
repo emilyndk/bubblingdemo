@@ -20,7 +20,7 @@ if (outerCircle && middleCircle && innerCircle && eventMessage && eventLog) {
     const entry = document.createElement("li");
     entry.textContent = text;
     eventLog.appendChild(entry);
-  };
+};
 
   const onCircleClick = (event) => {
     const handlerName = labels.get(event.currentTarget) || "Unknown circle"; // The element that has the event listener attached
